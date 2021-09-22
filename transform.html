@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		div{width: 100px;
+			height: 100px;
+			background: grey;
+			transition: width 2s, height 4s transform 2s;
+			animation-name: example;
+			animation-duration: 4s;
+		  animation-delay: 2s;
+		}
+		@keyframes example {
+			from {background: grey;}
+			to {background: black;}
+		}
+		div:hover{
+			width: 300px;
+			height: 300px;
+		}
+	</style>
+	<title>Transition</title>
+</head>
+<body>
+	<h1>The transition property</h1>
+	<p>hover over the element to see the transition effect</p>
+	<div></div>
+
+</body>
+</html>
